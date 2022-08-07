@@ -18,10 +18,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--hot-offer-->
 			<div class="hot-offer">
 				<div class="container">
-					<h3>hot offer</h3>
-					<h4>for your best day!</h4>
-					<img src="images/p5.jpg" class="img-responsive" alt="/">
-					<div class="offer"></div>
+					<img src="images/p5.jpg" style="height: 25em;" alt="/">
+<!--					<div class="offer"></div>-->
 				</div>
 			</div>
 			<!--hot-offer-->
@@ -29,7 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="container">
 						<h3>红人介绍</h3>
 							<div class="features-grids">
-								<div class="col-md-3 feature-grid">
+								<div class="col-md-3 feature-grid" style="height: 27em;">
 								<div class="feature">
 									<div class="feature1">
 										<img class="img-circle" src="kol/163.jpeg" width="80px" height="80px">
@@ -42,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 								</div>
 								</div>
-                                <div class="col-md-3 feature-grid">
+                                <div class="card-attr col-md-3 feature-grid ding-h">
                                     <div class="feature">
                                         <div class="feature1">
                                             <img class="img-circle" src="kol/164.jpg" width="80px" height="80px">
@@ -58,7 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </div>
                                     <p>&nbsp;</p>
                                 </div>
-                                <div class="col-md-3 feature-grid">
+                                <div class="card-attr col-md-3 feature-grid ding-h">
                                     <div class="feature">
                                         <div class="feature1">
                                             <img class="img-circle" src="kol/165.jpg" width="80px" height="80px">
@@ -89,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </div>
                                     <p>&nbsp;</p>
                                 </div>
-                                <div class="col-md-3 feature-grid">
+                                <div class="col-md-3 feature-grid ding-h">
                                     <div class="feature">
                                         <div class="feature1">
                                             <img class="img-circle" src="kol/169.jpeg" width="80px" height="80px">
@@ -952,6 +950,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 		</div>
+        <script>
+            $(document).ready(function () {
+                $(".feature-grid").height(28+'em');
+            });
+        </script>
     </div>
 </body>
 </html>
